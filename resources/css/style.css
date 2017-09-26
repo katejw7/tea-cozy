@@ -55,7 +55,6 @@ a {
   background-color: black;
   width: 100%;
   margin: auto;
-
 }
 
 #mission {
@@ -71,4 +70,11 @@ a {
   height: 200px;
   display: block;
   margin: 10px;
+}
+
+#featured {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
 }
