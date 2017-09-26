@@ -50,6 +50,19 @@ a {
   flex-wrap: wrap;
 }
 
+#mission .mission-banner {
+  display: block;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+
+}
+
+#mission {
+  background-image: url(../../resources/images/img-mission-background.jpg);
+  height: 700px;
+}
+
 .featured-item {
   padding: 5px;
 }
