@@ -5,6 +5,8 @@ body {
   background-color: black;
   opacity: 0.9;
   display: block;
+  text-align: center;
+  margin-top: 0px;
 }
 
 header {
@@ -14,6 +16,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 1;
+  background-color: black;
 }
 
 header img {
@@ -35,4 +38,24 @@ header nav span {
 a {
   color: seashell;
   text-decoration: underline;
+}
+
+.main {
+  padding-top: 100px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featured-item {
+  padding: 5px;
+}
+
+.featured-item img {
+  height: 200px;
+  display: block;
+  margin: 10px;
 }
