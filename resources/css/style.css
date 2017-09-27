@@ -101,3 +101,12 @@ a {
   padding-top: 5px;
   opacity: 1;
 }
+
+.contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
