@@ -78,3 +78,26 @@ a {
   padding-top: 70px;
   margin: auto;
 }
+
+.locations-header {
+  padding: 10px;
+}
+
+.flex-container-locations {
+  display: flex;
+  justify-content: space-around;
+}
+
+#locations {
+  background-image: url(../../resources/images/img-locations-background.jpg);
+  height: 500px;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  padding-top: 5px;
+  opacity: 1;
+}
