@@ -84,8 +84,10 @@ a {
 }
 
 .flex-container-locations {
+  padding-top: 5px;
+  margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #locations {
@@ -97,9 +99,13 @@ a {
 
 .location {
   background-color: black;
-  width: 300px;
-  padding-top: 5px;
+  padding: 10px;
+  margin: 5px 20px;
   opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
 }
 
 .contact {
